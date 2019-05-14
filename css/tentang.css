@@ -49,12 +49,12 @@ body {
 .main-content {
     margin-top: 90px;
     padding-left: 173px;
-    min-height: 500px;
+    min-height: 300px;
 }
 
 /* footer */
 .footer-backgroud {
-    min-height: 500px;
+    min-height: 650px;
     background: #eee;
     padding-top: 67px;
     background-image: url(../images/footer.png);
@@ -70,6 +70,14 @@ body {
 
 .img-circle {
     border-radius: 50%;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.garis {
+    border: 1px solid #707070;
 }
 
 /* Extra small devices (phones, 600px and down) */
@@ -138,6 +146,10 @@ body {
     .navbar-header>.navbar-toggler>.navbar-toggler-icon>i {
         color: #707070;
     }
+
+    .footer-backgroud {
+        padding-bottom: 200px;
+    }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -148,7 +160,7 @@ body {
     .main-content {
         margin-top: 90px;
         padding-left: 173px;
-        min-height: 500px;
+        min-height: 300px;
         padding-right: 200px;
     }
 
