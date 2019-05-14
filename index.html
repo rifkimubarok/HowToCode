@@ -1,6 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-<?php include('template/head.php')?>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>How to Code</title>
+    <!-- boostrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Custom css -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+</head>
+
 <body>
     <!-- Background dan Aksesoris -->
     <div id="bg">
@@ -34,6 +48,20 @@
             </svg>
 
         </div>
+        <div id="hr-2">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="191.912"
+                height="588.017" viewBox="0 0 191.912 588.017">
+                <defs>
+                    <linearGradient id="linear-gradient" x1="0.152" y1="0.115" x2="0.879" y2="0.788"
+                        gradientUnits="objectBoundingBox">
+                        <stop offset="0" stop-color="#b16cf4" />
+                        <stop offset="1" stop-color="#e06ff9" />
+                    </linearGradient>
+                </defs>
+                <path id="hr-2" d="M1335.912,1070.863s-228.189-82.474-186.92-319.77,186.92-268.247,186.92-268.247Z"
+                    transform="translate(-1144 -482.845)" fill="url(#linear-gradient)" />
+            </svg>
+        </div>
         <div id="hr-3">
             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="662.991"
                 height="432.739" viewBox="0 0 662.991 432.739">
@@ -50,6 +78,23 @@
             </svg>
 
         </div>
+        <div id="hr-4">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="191.912"
+                height="262.655" viewBox="0 0 191.912 262.655">
+                <defs>
+                    <linearGradient id="linear-gradient" x1="0.175" y1="0.055" x2="0.175" y2="0.938"
+                        gradientUnits="objectBoundingBox">
+                        <stop offset="0" stop-color="#b16cf4" />
+                        <stop offset="1" stop-color="#e06ff9" />
+                    </linearGradient>
+                </defs>
+                <path id="hr-4"
+                    d="M-2394.089,297.655H-2586V35l.014,0a261.464,261.464,0,0,1,30.039,13.642c10.467,5.46,20.828,11.548,30.794,18.1a343.7,343.7,0,0,1,35.287,26.535c27.891,23.987,50.094,51.292,65.992,81.156a252.159,252.159,0,0,1,12.251,26.645,251.365,251.365,0,0,1,9.424,29.361,260.34,260.34,0,0,1,6.032,32.163,281.445,281.445,0,0,1,2.076,35.052Z"
+                    transform="translate(2586 -35)" fill="url(#linear-gradient)" />
+            </svg>
+        </div>
+        <div id="bg-gray-1"></div>
+        <div id="bg-gray-2"></div>
         <div id="acc-0">
             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1013.749"
                 height="605.331" viewBox="0 0 1013.749 605.331">
@@ -172,7 +217,7 @@
         <!-- Navbar -->
         <nav class="navbar navbar-expand-lg">
             <nav class="ml-n5">
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand brand" href="#">
                     <svg xmlns="http://www.w3.org/2000/svg" width="201" height="29.019" viewBox="0 0 201 29.019">
                         <g id="brand" transform="translate(-104 -73)">
                             <text id="How_to_Code_" data-name="How to Code " transform="translate(151 96)"
@@ -205,79 +250,201 @@
                     <a class="nav-item nav-link active" href="#">Home<span class="sr-only">(current)</span></a>
                     <a class="nav-item nav-link" href="#">Mulai Kelas</a>
                     <a class="nav-item nav-link" href="#">Tentang</a>
-                    <a class="nav-item nav-link" href="#">Login</a>
+                    <button class="btn btn-outline-primary mt-2 ml-5">Login</button>
                 </div>
             </div>
         </nav>
-        <div class="row">
-            <div class="info-awal">
-                <p class="info-awal-k">
-                    Apakah anda mengalami kesulitan dalam memahami bahasa pemrograman
-                </p>
-                <p class="info-awal-b">
-                    Kami membuka kelas pembelajaran online untuk membantu anda dalam belajar <b>Bahasa pemrograman...</b>
-    
-                </p>
-                <a href="daftar.php" class="btn btn-purple btn-join" style="float:right">Daftar</a>
+
+        <!-- content -->
+        <!-- page-1 -->
+        <div class="row text-content page-1">
+            <div class="col-lg-6">
+                <p>Apakah anda mengalami kesulitan<br>
+                    dalam memahami Bahasa pemrograman?</p>
+                <h3>Kami membuka kelas<br>
+                    pembelajaran online untuk<br>
+                    membantu anda dalam belajar<br>
+                    <b>Bahasa pemrograman . . . .</b>
+                </h3>
+                <div class="d-flex justify-content-center mt-4 ml-100">
+                    <button type="submit" class="btn btn-primary daftar">Daftar</button>
+                </div>
             </div>
-            <div class="card-info">
+            <div class="col-lg-6">
+                <div class="row">
+                    <div class="col-6">
+                        <div class="card" style="width: 238px;">
+                            <div class="card-body">
+                                <h5 class="card-title"><img src="images/icon-js.png"> JavaScript</h5>
+                                <p class="card-text">
+                                    var x = 10;<br>
+                                    var y = 10;<br>
+                                    <br>
+                                    z = x + y;<br>
+                                    h = "Hello World";<br>
+                                    <br>
+                                    console.log(z);<br>
+                                    console.log(h);<br>
+                                </p>
+                                <a href="#" class="card-link d-flex justify-content-end">Detail</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="card" style="width: 238px;">
+                            <div class="card-body">
+                                <h5 class="card-title"><img src="images/icon-js.png"> JavaScript</h5>
+                                <p class="card-text">
+                                    var x = 10;<br>
+                                    var y = 10;<br>
+                                    <br>
+                                    z = x + y;<br>
+                                    h = "Hello World";<br>
+                                    <br>
+                                    console.log(z);<br>
+                                    console.log(h);<br>
+                                </p>
+                                <a href="#" class="card-link d-flex justify-content-end">Detail</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col mt-4">
+                        <div class="d-flex justify-content-end">
+                            <a href="#" class="arrow"><img src="images/left-arrow.png" alt=""></a>
+                            <a href="#" class="arrow"><img src="images/right-arrow.png" alt=""></a>
+                        </div>
+                    </div>
+
+                </div>
 
             </div>
         </div>
-</div>
-        <div class="fitur">
-            <h1>"Anda tidak dapat mempercayai kode yang tidak anda buat sendiri sepenuhnya"</h1>
-            <h2>- Autrijus Tang - </h2>
+
+        <!-- page-2 -->
+        <div class="row mt-120 ">
+            <div class="col">
+
+                <div class="row">
+                    <div class="col text-center text-gray">
+                        <h5 class="quotes">"Anda tidak dapat mempercayai kode yang<br>
+                            tidak anda buat sendiri sepenuhnya"</h5>
+                        <p>- Autrijus Tang -</p>
+                    </div>
+                </div>
+
+                <div class="row text-gray justify-content-center mt-85">
+                    <div class="col-4 px-4">
+                        <div class="d-flex justify-content-center">
+                            <img class="" src="images/code.png" alt="">
+                        </div>
+                        <p class="text-center font-25 mt-n3"><b>Mudah Dipelajari</b></p>
+                        <p class="text-center font-25 font-light">Di How to Code sintaks
+                            kode mudah dipelajari,
+                            mudah diingat dan
+                            di implementasikan</p>
+                    </div>
+                    <div class="col-4 px-4">
+                        <div class="d-flex justify-content-center">
+                            <img class="" src="images/rp.png" alt="">
+                        </div>
+                        <p class="text-center font-25 mt-n3"><b>Murah dan Hemat</b></p>
+                        <p class="text-center font-25 font-light">How to Code memberikan
+                            kursus online dengan harga
+                            yang murah dan terdapat
+                            pilihat paket</p>
+                    </div>
+                    <div class="col-4 px-4">
+                        <div class="d-flex justify-content-center">
+                            <img class="" src="images/time.png" alt="">
+                        </div>
+                        <p class="text-center font-25 mt-n3"><b>Belajar Kapanpun</b></p>
+                        <p class="text-center font-25 font-light">How to Code memberikan
+                            kemudahan untuk belajar
+                            dimananpun dan
+                            kapanpun tanpa Batasan waktu</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <!-- page-3 -->
+        <div class="row mt-130">
+            <div class="col-6">
+                <img src="images/video-1.png" alt="">
+            </div>
+
+            <div class="col-6 mt-300">
+                <div class="d-flex align-items-end">
+                    <img src="images/video-2.png" alt="">
+                </div>
+            </div>
+        </div>
+
+
+        <!-- page 4 -->
+        <div class="row mt-130 d-flex justify-content-center">
             <div class="row">
-                <div class="col-4">
-                    <img src="img/pp.jpg" alt="">
-                    <p class="title-fitur">
-                        Lorem Ipsum
-                    </p>
-                    <p class="desc-fitur">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio modi amet, voluptatem ratione illum ipsam a voluptate nam odit maxime excepturi omnis sequi nesciunt eos sint, deserunt quia fuga fugiat?
-                    </p>
+                <div class="col-2">
+                    <h4 class="text-center text-gray font-32"><b>Testimoni</b></h4>
                 </div>
-                <div class="col-4">
-                    <img src="img/pp.jpg" alt="">
-                    <p class="title-fitur">
-                        Lorem Ipsum
-                    </p>
-                    <p class="desc-fitur">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio modi amet, voluptatem ratione illum ipsam a voluptate nam odit maxime excepturi omnis sequi nesciunt eos sint, deserunt quia fuga fugiat?
-                    </p>
-                </div>
+            </div>
 
-                <div class="col-4">
-                    <img src="img/pp.jpg" alt="">
-                    <p class="title-fitur">
-                        Lorem Ipsum
-                    </p>
-                    <p class="desc-fitur">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio modi amet, voluptatem ratione illum ipsam a voluptate nam odit maxime excepturi omnis sequi nesciunt eos sint, deserunt quia fuga fugiat?
-                    </p>
+            <div class="row d-flex justify-content-center mt-60">
+                <div class="col-8">
+                    <p class="text-center text-gray font-32 font-light">" How to Code memberikan pengalaman luar biasa
+                        dalam belajar ngoding :) "</p>
                 </div>
+            </div>
 
+            <div class="row d-flex justify-content-center mt-60">
+                <div class="mx-3 mt-3">
+                    <img src="images/photo-2.png" alt="">
+                </div>
+                <div class="">
+                    <img class="mx-5" src="images/photo-1.png" alt="">
+                    <p class="text-center text-gray font-24 mx-1"><b>Angelina Christ</b></p>
+                    <p class="text-center text-gray font-16 mx-1 mt-n3">Designer | Model</p>
+                </div>
+                <div class="mx-3 mt-3">
+                    <img src="images/photo-3.png" alt="">
+                </div>
+            </div>
+
+            <div class="divider"></div>
+
+            <div class="row mt-5">
+                <div class="col">
+                    <p class="text-center text-gray">Copyright &copy; Tugas Besar IMK 2019</p>
+                </div>
             </div>
         </div>
-        <div class="row">
-            <iframe class="video1" width="350" height="196" src="https://www.youtube.com/embed/fju9ii8YsGs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <iframe class="video2" width="350" height="196" src="https://www.youtube.com/embed/7TF00hJI78Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-        <div class="footer">
-            <h1>Testimoni</h1>
-            <h2 class="testimoni">"How to code memberikan pengalaman liar biasa dalam belajar ngoding :)"</h2>
-            <img src="img/pp.jpg" alt="">
-                    <p class="test-title">
-                        Lorem Ipsum
-                    </p>
-                    <p class="desc-test">
-                        Jobless
-                    </p>
-            <hr>
-            <h1 class="footer-text">
-                Copyright (c) Tugas Besar IMK
-            </h1>
-        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- javascript -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
 </body>
+
 </html>
