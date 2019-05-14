@@ -22,6 +22,10 @@ body {
     max-height: 150px;
 }
 
+.text-gray {
+    color: #757575;
+}
+
 /* Navbar */
 .navbar {
     /* margin-top: 10px; */

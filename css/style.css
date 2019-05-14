@@ -4,6 +4,10 @@ body {
     padding: 0;
 }
 
+.overflow {
+    overflow: hidden;
+}
+
 
 /* Background dan aksesoris */
 #hr-0 {
@@ -197,6 +201,10 @@ h3 {
     height: 45px;
     border-radius: 27px;
     font-size: 20px;
+}
+
+.ml-n150 {
+    margin-left: -250px;
 }
 
 .btn-primary {
