@@ -22,38 +22,45 @@ body {
     max-height: 150px;
 }
 
+<<<<<<< HEAD
 .text-gray {
     color: #757575;
 }
+=======
+>>>>>>> e5f025b7eb7f39bb305eaa6d51e8f6c319613492
 
 /* Navbar */
 .navbar {
-    /* margin-top: 10px; */
-    margin-left: 120px;
+    margin-top: 20px;
+    margin-left: 80px;
 }
 
 .nav-item {
     font-size: 18px;
-    color: #707070;
+    color: #7d7d7d;
     margin-left: 44px;
-}
-
-.navbar-expand-lg .navbar-nav .nav-link {
-    padding-right: 0px;
-    padding-left: 0px;
 }
 
 .nav-login {
     width: 86px;
     height: 30px;
-    border: 1px solid #707070;
+    border: 1px solid #7d7d7d;
     border-radius: 15px;
+}
+
+.btn-outline-primary {
+    border-color: #7d7d7d;
+    color: #7d7d7d;
+    border-radius: 26px;
+    height: 30px;
+    line-height: 0;
 }
 
 .main-content {
     margin-top: 90px;
     padding-left: 173px;
     min-height: 300px;
+    margin-bottom: 20px;
 }
 
 /* footer */
@@ -107,22 +114,32 @@ body {
         max-height: 150px;
     }
 
-    /* Navbar Section */
+
+    /* Navbar */
     .navbar {
         margin-top: 20px;
         margin-left: 80px;
     }
 
-    .navbar-header>.navbar-toggler>.navbar-toggler-icon>i {
-        color: #707070;
+    .nav-item {
+        font-size: 18px;
+        color: #7d7d7d;
+        margin-left: 44px;
     }
 
-    .nav-bar>.header-backgroud {
-        max-width: 100;
+    .nav-login {
+        width: 86px;
+        height: 30px;
+        border: 1px solid #7d7d7d;
+        border-radius: 15px;
     }
 
-    .navbar-collapse>.navbar-nav {
-        right: 0px;
+    .btn-outline-primary {
+        border-color: #7d7d7d;
+        color: #7d7d7d;
+        border-radius: 26px;
+        height: 30px;
+        line-height: 0;
     }
 
     /* Paragraft content */
@@ -147,9 +164,6 @@ body {
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-    .navbar-header>.navbar-toggler>.navbar-toggler-icon>i {
-        color: #707070;
-    }
 
     .footer-backgroud {
         padding-bottom: 200px;

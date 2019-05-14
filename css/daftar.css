@@ -51,6 +51,7 @@ body {
     padding: 23px 67px;
     background: white;
     box-shadow: -10px 40px 50px rgba(0, 0, 0, 0.3);
+    margin-bottom: 44px;
 }
 
 .form-control {
@@ -116,6 +117,29 @@ body {
     color: #7d7d7d;
 }
 
-.mt-n20 {
+.mt-20 {
     margin-top: -20px;
+}
+
+
+.footer-back>img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+@media only screen and (max-width: 600px) {
+    .footer-back>img {
+        height: 100px;
+    }
+
+    .daftar {
+        height: 497.62px;
+        margin-top: 66px;
+        width: 90%;
+        right: 20px;
+        padding: 23px 67px;
+        background: white;
+        box-shadow: -10px 40px 50px rgba(0, 0, 0, 0.3);
+    }
 }
