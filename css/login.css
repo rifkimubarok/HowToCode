@@ -7,7 +7,7 @@ body {
 #hr-0 {
     /* milik daftar.html */
     position: absolute;
-    top: 238.81px;
+    bottom: 0;
     right: 0;
 }
 
@@ -106,4 +106,27 @@ body {
 .bold {
     font-weight: bold;
     color: #7d7d7d;
+}
+
+.footer-back>img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .footer-back>img {
+        height: 100px;
+    }
+
+    .login {
+        height: 403.47px;
+        margin-top: 66px;
+        width: 90%;
+        right: 20px;
+        padding: 23px 67px;
+        background: white;
+        box-shadow: -10px 40px 50px rgba(0, 0, 0, 0.3);
+    }
 }
