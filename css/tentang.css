@@ -22,12 +22,9 @@ body {
     max-height: 150px;
 }
 
-<<<<<<< HEAD
 .text-gray {
     color: #757575;
 }
-=======
->>>>>>> e5f025b7eb7f39bb305eaa6d51e8f6c319613492
 
 /* Navbar */
 .navbar {
@@ -155,7 +152,7 @@ body {
         background: #eee;
         padding-top: 67px;
         padding-left: 50px;
-        background-image: url(../images/footer.png);
+        background-image: url('../images/footer.png');
         background-repeat: no-repeat;
         background-size: auto 150px;
         background-position: bottom right;
